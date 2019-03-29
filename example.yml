@@ -1,0 +1,8 @@
+vendor: AWS
+routes:
+    - route: 
+      path: /graphql
+      function: some.function.handler
+    - route: 
+      path: /something/else
+      function: some.other.function.handler
